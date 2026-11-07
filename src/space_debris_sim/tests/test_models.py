@@ -1,4 +1,4 @@
-from ..core.models import Thruster, DebrisItem
+from space_debris_sim.core.models import Thruster, DebrisItem
 
 def test_thruster_mass():
     thr = Thruster(id=1)
