@@ -1,5 +1,5 @@
-from ..core.simulation import Simulation
-from ..core.models import MissionConfig
+from space_debris_sim.core.simulation import Simulation
+from space_debris_sim.core.models import MissionConfig
 
 def dummy_logger(msg):
     pass

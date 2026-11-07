@@ -18,3 +18,13 @@ and simple data export for research.
 ```bash
 python -m pip install -r requirements.txt
 python -m src.space_debris_sim
+```
+
+## Core tests
+
+```bash
+python -m pip install pytest
+python -m pytest
+```
+
+These tests exercise the simulation core and debris mass aggregation without opening the GUI.
